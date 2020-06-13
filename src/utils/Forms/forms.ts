@@ -1,4 +1,4 @@
-function formData(form: HTMLFormElement) {
+export function formData(form: HTMLFormElement) {
     const inputs = form.querySelectorAll('input')
     const values: {[prop: string]: string} = {}
 
